@@ -3,6 +3,7 @@ Revision history for Perl extension MooseX-ExtraArgs.
 {{$NEXT}}
 
  - Migrate all the tests from Test::More to Test2::V0.
+ - Migrate build tooling from Dist::Zilla to Minilla.
 
 0.01 2012-12-09
 

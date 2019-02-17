@@ -1,10 +1,8 @@
-=pod
-
-=head1 NAME
+# NAME
 
 MooseX::ExtraArgs - Save constructor arguments that were not consumed.
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
 Create a class that uses this module:
 
@@ -16,22 +14,20 @@ Create a class that uses this module:
     my $object = MyClass->new( foo => 32, bar => 16 );
     print $object->extra_args->{bar};
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
 This module provides access to any constructor arguments that were not assigned to an
-attribute.  Where L<MooseX::StrictConstructor> does not allow any unknown arguments, this
+attribute.  Where [MooseX::StrictConstructor](https://metacpan.org/pod/MooseX::StrictConstructor) does not allow any unknown arguments, this
 module expects unknown arguments and saves them for later access.
 
 This could be useful for proxy classes that expect extra arguments that will then be
 used to pass as arguments to the underlying implementation.
 
-=head1 AUTHOR
+# AUTHOR
 
 Aran Clary Deltac <bluefeet@gmail.com>
 
-=head1 LICENSE
+# LICENSE
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-=cut
