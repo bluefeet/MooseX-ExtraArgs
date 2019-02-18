@@ -1,5 +1,7 @@
-package # Hide from the indexer for now until docs are added later.
-    MooseX::ExtraArgs::Meta::Object;
+package MooseX::ExtraArgs::Meta::Object;
+
+$MooseX::ExtraArgs::Meta::Object::VERSION = '0.01';
+
 use Moose::Role;
 
 has extra_args => (
