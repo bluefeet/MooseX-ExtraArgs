@@ -1,6 +1,6 @@
 package MooseX::ExtraArgs::Meta::Object;
 
-$MooseX::ExtraArgs::Meta::Object::VERSION = '0.01';
+$MooseX::ExtraArgs::Meta::Object::VERSION = '0.02';
 
 use Moose::Role;
 

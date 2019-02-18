@@ -1,6 +1,6 @@
 package MooseX::ExtraArgs;
 
-$MooseX::ExtraArgs::VERSION = '0.01';
+$MooseX::ExtraArgs::VERSION = '0.02';
 
 =head1 NAME
 
