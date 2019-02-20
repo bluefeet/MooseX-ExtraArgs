@@ -1,5 +1,5 @@
 package MooseX::ExtraArgs;
-
+use 5.008001;
 our $VERSION = '0.02';
 
 =head1 NAME

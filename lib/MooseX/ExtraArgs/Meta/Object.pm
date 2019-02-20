@@ -1,5 +1,5 @@
 package MooseX::ExtraArgs::Meta::Object;
-
+use 5.008001;
 our $VERSION = '0.02';
 
 use Moose::Role;
